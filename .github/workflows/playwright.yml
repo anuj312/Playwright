@@ -28,6 +28,13 @@ jobs:
       - name: Run Playwright Tests
         run: npx playwright test --reporter=html
 
+      - name: Check if report folder exists
+        run: |
+          if [ ! -d "playwright-report" ]; then
+            echo "❌ playwright-report not found!"
+            exit 1
+          fi
+
       - name: Compress Playwright Report
         run: zip -r playwright-report.zip playwright-report
 
@@ -45,7 +52,10 @@ jobs:
           body: |
             Hello,
 
-            The Playwright login test suite has completed. Please find the HTML report attached.
+            The Playwright test suite has completed. Please find the HTML test report attached.
+
+            ✅ Branch: ${{ github.ref }}
+            🔁 Commit: ${{ github.sha }}
 
             Regards,  
             GitHub Actions
