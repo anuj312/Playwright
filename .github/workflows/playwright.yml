@@ -28,14 +28,17 @@ jobs:
       - name: Run Playwright Tests
         run: npx playwright test --reporter=html
 
-      - name: Check if report folder exists
-        run: |
-          if [ ! -d "playwright-report" ]; then
-            echo "❌ playwright-report not found!"
-            exit 1
-          fi
+      # 🔁 Optional: Fallback report generation if tests crash early
+      - name: Manually Generate HTML Report
+        if: failure()
+        run: npx playwright show-report --output=playwright-report
+
+      - name: List report directory for debug
+        if: always()
+        run: ls -la && ls -la playwright-report || echo "Report not found"
 
       - name: Compress Playwright Report
+        if: always()
         run: zip -r playwright-report.zip playwright-report
 
       - name: Send Report via Email
@@ -46,16 +49,17 @@ jobs:
           server_port: 587
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: Playwright Test Report 📋
+          subject: 📋 Playwright Test Report
           to: ${{ secrets.MAIL_RECEIVER }}
           from: Playwright CI <${{ secrets.MAIL_USERNAME }}>
           body: |
             Hello,
 
-            The Playwright test suite has completed. Please find the HTML test report attached.
+            The Playwright test suite has completed in GitHub Actions.
 
             ✅ Branch: ${{ github.ref }}
             🔁 Commit: ${{ github.sha }}
+            📄 Report attached.
 
             Regards,  
             GitHub Actions
