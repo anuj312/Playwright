@@ -1,0 +1,366 @@
+# Page snapshot
+
+```yaml
+- link "Jump to content":
+  - /url: "#bodyContent"
+- banner:
+  - navigation "Site":
+    - button "Main menu"
+  - link "Wikipedia The Free Encyclopedia":
+    - /url: /wiki/Main_Page
+    - img "Wikipedia"
+    - img "The Free Encyclopedia"
+  - search:
+    - searchbox "Search Wikipedia"
+    - button "Search"
+  - navigation "Personal tools":
+    - list:
+      - listitem:
+        - link "Donate":
+          - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      - listitem:
+        - link "Create account":
+          - /url: /w/index.php?title=Special:CreateAccount&returnto=Test
+      - listitem:
+        - link "Log in":
+          - /url: /w/index.php?title=Special:UserLogin&returnto=Test
+    - button "Personal tools"
+- navigation "Contents":
+  - heading "Contents" [level=2]
+  - button "hide"
+  - list:
+    - listitem:
+      - link "(Top)":
+        - /url: "#"
+    - listitem:
+      - link "Arts and entertainment":
+        - /url: "#Arts_and_entertainment"
+      - list
+    - listitem:
+      - link "Computing":
+        - /url: "#Computing"
+      - list
+    - listitem:
+      - link "People":
+        - /url: "#People"
+      - list
+    - listitem:
+      - link "Science and technology":
+        - /url: "#Science_and_technology"
+      - list
+    - listitem:
+      - link "Sports":
+        - /url: "#Sports"
+      - list
+    - listitem:
+      - link "Other uses":
+        - /url: "#Other_uses"
+      - list
+    - listitem:
+      - link "Abbreviation":
+        - /url: "#Abbreviation"
+      - list
+    - listitem:
+      - link "See also":
+        - /url: "#See_also"
+      - list
+- main:
+  - heading "Test" [level=1]
+  - button "Go to an article in another language. Available in 31 languages"
+  - navigation "Namespaces":
+    - list:
+      - listitem:
+        - link "Article":
+          - /url: /wiki/Test
+      - listitem:
+        - link "Talk":
+          - /url: /wiki/Talk:Test
+  - navigation "Views":
+    - list:
+      - listitem:
+        - link "Read":
+          - /url: /wiki/Test
+      - listitem:
+        - link "View source":
+          - /url: /w/index.php?title=Test&action=edit
+      - listitem:
+        - link "View history":
+          - /url: /w/index.php?title=Test&action=history
+  - navigation "Page tools":
+    - button "Tools"
+  - navigation "Appearance":
+    - text: Appearance
+    - button "hide"
+  - link "Page semi-protected":
+    - /url: /wiki/Wikipedia:Protection_policy#semi
+    - img "Page semi-protected"
+  - text: From Wikipedia, the free encyclopedia
+  - note:
+    - text: To test editing of Wikipedia, go to
+    - link "Wikipedia:Sandbox":
+      - /url: /wiki/Wikipedia:Sandbox
+    - text: .
+  - link:
+    - /url: /wiki/File:Wiktionary-logo-en-v2.svg
+  - text: Look up
+  - link "test":
+    - /url: https://en.wiktionary.org/wiki/test
+  - text: ","
+  - link "testing":
+    - /url: https://en.wiktionary.org/wiki/testing
+  - text: ","
+  - link "Test":
+    - /url: https://en.wiktionary.org/wiki/Test
+  - text: ", or"
+  - link "TEST":
+    - /url: https://en.wiktionary.org/wiki/TEST
+  - text: in Wiktionary, the free dictionary.
+  - paragraph: "Test(s), testing, or TEST may refer to:"
+  - list:
+    - listitem:
+      - link "Test (assessment)":
+        - /url: /wiki/Test_(assessment)
+      - text: ", an educational assessment intended to measure the respondents' knowledge or other abilities"
+  - heading "Arts and entertainment" [level=2]
+  - list:
+    - listitem:
+      - link "Test (2013 film)":
+        - /url: /wiki/Test_(2013_film)
+      - text: ", an American film"
+    - listitem:
+      - link "Test (2014 film)":
+        - /url: /wiki/Test_(2014_film)
+      - text: ", a Russian film"
+    - listitem:
+      - link "Test (2025 film)":
+        - /url: /wiki/Test_(2025_film)
+      - text: ", an Indian sports drama"
+    - listitem:
+      - link "Test (group)":
+        - /url: /wiki/Test_(group)
+      - text: ", a jazz collective"
+    - listitem:
+      - link "Tests (album)":
+        - /url: /wiki/Tests_(album)
+      - text: ", a 1998 album by The Microphones"
+    - listitem:
+      - link "Testing (album)":
+        - /url: /wiki/Testing_(album)
+      - text: ", an album by ASAP Rocky"
+  - heading "Computing" [level=2]
+  - list:
+    - listitem:
+      - link ".test":
+        - /url: /wiki/.test
+      - text: ", a reserved top-level domain"
+    - listitem:
+      - link "Software testing":
+        - /url: /wiki/Software_testing
+    - listitem:
+      - link "test (Unix)":
+        - /url: /wiki/Test_(Unix)
+      - text: ", a Unix command for evaluating conditional expressions"
+    - listitem:
+      - link "TEST (x86 instruction)":
+        - /url: /wiki/TEST_(x86_instruction)
+      - text: ", an x86 assembly language instruction"
+  - heading "People" [level=2]
+  - list:
+    - listitem:
+      - link "Test (wrestler)":
+        - /url: /wiki/Test_(wrestler)
+      - text: ", ring name for Andrew Martin (1975–2009), Canadian professional wrestler"
+    - listitem:
+      - link "John Test":
+        - /url: /wiki/John_Test
+      - text: (1771–1849), American politician
+    - listitem:
+      - link "Zack Test":
+        - /url: /wiki/Zack_Test
+      - text: (born 1989), American rugby union player
+  - heading "Science and technology" [level=2]
+  - list:
+    - listitem:
+      - link "Experiment":
+        - /url: /wiki/Experiment
+      - text: ", a procedure carried out in order to test a hypothesis"
+    - listitem:
+      - link "Statistical hypothesis test":
+        - /url: /wiki/Statistical_hypothesis_test
+      - text: ", techniques to reach conclusions about probabilistic behavior"
+    - listitem:
+      - link "Metal testing":
+        - /url: /wiki/Metal_testing
+    - listitem:
+      - link "Mechanical testing":
+        - /url: /wiki/Mechanical_testing
+      - list:
+        - listitem:
+          - link "Proof test":
+            - /url: /wiki/Proof_test
+          - text: ", a stress test to demonstrate the fitness of a load-bearing structure"
+    - listitem:
+      - link "Product testing":
+        - /url: /wiki/Product_testing
+    - listitem:
+      - link "Stress testing":
+        - /url: /wiki/Stress_testing
+    - listitem:
+      - link "System testing":
+        - /url: /wiki/System_testing
+    - listitem:
+      - link "Test equipment":
+        - /url: /wiki/Test_equipment
+    - listitem:
+      - link "Test (biology)":
+        - /url: /wiki/Test_(biology)
+      - text: ", the shell of sea urchins and certain microorganisms"
+  - heading "Sports" [level=2]
+  - list:
+    - listitem:
+      - link "Test cricket":
+        - /url: /wiki/Test_cricket
+      - text: ", a series of matches played by two national representative teams"
+    - listitem:
+      - link "Test match (rugby league)":
+        - /url: /wiki/Test_match_(rugby_league)
+      - text: ", a match between teams of the Rugby League International Federation"
+    - listitem:
+      - link "Test match (rugby union)":
+        - /url: /wiki/Test_match_(rugby_union)
+      - text: ", an international match usually played between two senior national teams"
+    - listitem:
+      - link "Test (greyhound competition)":
+        - /url: /wiki/Test_(greyhound_competition)
+      - text: ", a greyhound race run between 1941 and 2008"
+  - heading "Other uses" [level=2]
+  - list:
+    - listitem:
+      - link "River Test":
+        - /url: /wiki/River_Test
+      - text: ", a river in England"
+    - listitem:
+      - link "Test (law)":
+        - /url: /wiki/Test_(law)
+      - text: ", an applied method of evaluation used to resolve matters of jurisprudence"
+  - heading "Abbreviation" [level=2]
+  - list:
+    - listitem:
+      - text: Test., abbreviation for Testament, referring to the
+      - link "Old Testament":
+        - /url: /wiki/Old_Testament
+      - text: and
+      - link "New Testament":
+        - /url: /wiki/New_Testament
+      - text: of the Christian Bible.
+  - heading "See also" [level=2]
+  - img
+  - text: Search for
+  - link "\"Test\"":
+    - /url: https://en.wikipedia.org/w/index.php?title=Special:Search&search=%22Test%22&ns0=1&fulltext=Search
+  - text: on Wikipedia.
+  - list:
+    - listitem:
+      - link "Tester (disambiguation)":
+        - /url: /wiki/Tester_(disambiguation)
+      - text: ", person or device that tests or measures"
+    - listitem:
+      - link "The Test (disambiguation)":
+        - /url: /wiki/The_Test_(disambiguation)
+    - listitem:
+      - link "All pages with titles beginning with Test":
+        - /url: /wiki/Special:PrefixIndex/Test
+    - listitem:
+      - link "All pages with titles containing Test":
+        - /url: /wiki/Special:Search/intitle:%22Test%22
+    - listitem:
+      - link "Examination (disambiguation)":
+        - /url: /wiki/Examination_(disambiguation)
+    - listitem:
+      - link "List of tests":
+        - /url: /wiki/List_of_tests
+    - listitem:
+      - link "Trial (disambiguation)":
+        - /url: /wiki/Trial_(disambiguation)
+    - listitem:
+      - link "Validation (disambiguation)":
+        - /url: /wiki/Validation_(disambiguation)
+    - listitem:
+      - link "Verification (disambiguation)":
+        - /url: /wiki/Verification_(disambiguation)
+  - note:
+    - link "Disambiguation icon":
+      - /url: /wiki/File:Disambig_gray.svg
+      - img "Disambiguation icon"
+    - text: This
+    - link "disambiguation":
+      - /url: /wiki/Help:Disambiguation
+    - text: page lists articles associated with the title Test. If an
+    - link "internal link":
+      - /url: https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Test&namespace=0
+    - text: led you here, you may wish to change the link to point directly to the intended article.
+  - link "Categories":
+    - /url: /wiki/Help:Category
+  - text: ":"
+  - list:
+    - listitem:
+      - link "Disambiguation pages":
+        - /url: /wiki/Category:Disambiguation_pages
+    - listitem:
+      - link "Disambiguation pages with surname-holder lists":
+        - /url: /wiki/Category:Disambiguation_pages_with_surname-holder_lists
+- contentinfo:
+  - list:
+    - listitem: This page was last edited on 22 May 2025, at 03:01 (UTC).
+    - listitem:
+      - text: Text is available under the
+      - link "Creative Commons Attribution-ShareAlike 4.0 License":
+        - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+      - text: ; additional terms may apply. By using this site, you agree to the
+      - link "Terms of Use":
+        - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+      - text: and
+      - link "Privacy Policy":
+        - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      - text: . Wikipedia® is a registered trademark of the
+      - link "Wikimedia Foundation, Inc.":
+        - /url: https://wikimediafoundation.org/
+      - text: ", a non-profit organization."
+  - list:
+    - listitem:
+      - link "Privacy policy":
+        - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    - listitem:
+      - link "About Wikipedia":
+        - /url: /wiki/Wikipedia:About
+    - listitem:
+      - link "Disclaimers":
+        - /url: /wiki/Wikipedia:General_disclaimer
+    - listitem:
+      - link "Contact Wikipedia":
+        - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+    - listitem:
+      - link "Code of Conduct":
+        - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+    - listitem:
+      - link "Developers":
+        - /url: https://developer.wikimedia.org
+    - listitem:
+      - link "Statistics":
+        - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+    - listitem:
+      - link "Cookie statement":
+        - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+    - listitem:
+      - link "Mobile view":
+        - /url: //en.m.wikipedia.org/w/index.php?title=Test&mobileaction=toggle_view_mobile
+  - list:
+    - listitem:
+      - link "Wikimedia Foundation":
+        - /url: https://www.wikimedia.org/
+        - img "Wikimedia Foundation"
+    - listitem:
+      - link "Powered by MediaWiki":
+        - /url: https://www.mediawiki.org/
+        - img "Powered by MediaWiki"
+```

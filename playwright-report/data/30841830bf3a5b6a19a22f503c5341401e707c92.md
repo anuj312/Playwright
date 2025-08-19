@@ -1,0 +1,223 @@
+# Page snapshot
+
+```yaml
+- main:
+  - heading "Wikipedia The Free Encyclopedia" [level=1]:
+    - text: Wikipedia
+    - strong: The Free Encyclopedia
+  - navigation "Top languages":
+    - link "English 7,041,000+ articles":
+      - /url: //en.wikipedia.org/
+      - strong: English
+      - text: 7,041,000+ articles
+    - link "日本語 1,469,000+ 記事":
+      - /url: //ja.wikipedia.org/
+      - strong: 日本語
+      - text: 1,469,000+ 記事
+    - link "Русский 2 059 000+ статей":
+      - /url: //ru.wikipedia.org/
+      - strong: Русский
+      - text: 2 059 000+ статей
+    - link "Deutsch 3.042.000+ Artikel":
+      - /url: //de.wikipedia.org/
+      - strong: Deutsch
+      - text: 3.042.000+ Artikel
+    - link "Français 2 702 000+ articles":
+      - /url: //fr.wikipedia.org/
+      - strong: Français
+      - text: 2 702 000+ articles
+    - link "Español 2.055.000+ artículos":
+      - /url: //es.wikipedia.org/
+      - strong: Español
+      - text: 2.055.000+ artículos
+    - link "中文 1,494,000+ 条目 / 條目":
+      - /url: //zh.wikipedia.org/
+      - strong: 中文
+      - text: 1,494,000+ 条目 / 條目
+    - link "Italiano 1.931.000+ voci":
+      - /url: //it.wikipedia.org/
+      - strong: Italiano
+      - text: 1.931.000+ voci
+    - link "Polski 1 666 000+ haseł":
+      - /url: //pl.wikipedia.org/
+      - strong: Polski
+      - text: 1 666 000+ haseł
+    - link "Português 1.152.000+ artigos":
+      - /url: //pt.wikipedia.org/
+      - strong: Português
+      - text: 1.152.000+ artigos
+  - search:
+    - group:
+      - text: Search Wikipedia
+      - searchbox "Search Wikipedia": Play
+      - text: en
+      - combobox "en":
+        - option "Afrikaans"
+        - option "Shqip"
+        - option "العربية"
+        - option "Asturianu"
+        - option "Azərbaycanca"
+        - option "Български"
+        - option "閩南語 / Bân-lâm-gú"
+        - option "বাংলা"
+        - option "Беларуская"
+        - option "Català"
+        - option "Čeština"
+        - option "Cymraeg"
+        - option "Dansk"
+        - option "Deutsch"
+        - option "Eesti"
+        - option "Ελληνικά"
+        - option "English" [selected]
+        - option "Español"
+        - option "Esperanto"
+        - option "Euskara"
+        - option "فارسی"
+        - option "Français"
+        - option "Galego"
+        - option "한국어"
+        - option "Հայերեն"
+        - option "हिन्दी"
+        - option "Hrvatski"
+        - option "Bahasa Indonesia"
+        - option "Italiano"
+        - option "עברית"
+        - option "ქართული"
+        - option "Ladin"
+        - option "Latina"
+        - option "Latviešu"
+        - option "Lietuvių"
+        - option "Magyar"
+        - option "Македонски"
+        - option "Malagasy"
+        - option "मराठी"
+        - option "مصرى"
+        - option "Bahasa Melayu"
+        - option "Bahaso Minangkabau"
+        - option "မြန်မာဘာသာ"
+        - option "Nederlands"
+        - option "日本語"
+        - option "Norsk (bokmål)"
+        - option "Norsk (nynorsk)"
+        - option "Нохчийн"
+        - option "Oʻzbekcha / Ўзбекча"
+        - option "Polski"
+        - option "Português"
+        - option "Қазақша / Qazaqşa / قازاقشا"
+        - option "Română"
+        - option "Simple English"
+        - option "Sinugboanong Binisaya"
+        - option "Slovenčina"
+        - option "Slovenščina"
+        - option "Српски / Srpski"
+        - option "Srpskohrvatski / Српскохрватски"
+        - option "Suomi"
+        - option "Svenska"
+        - option "Kiswahili"
+        - option "தமிழ்"
+        - option "Татарча / Tatarça"
+        - option "తెలుగు"
+        - option "ภาษาไทย"
+        - option "Тоҷикӣ"
+        - option "تۆرکجه"
+        - option "Türkçe"
+        - option "Українська"
+        - option "اردو"
+        - option "Tiếng Việt"
+        - option "Winaray"
+        - option "中文"
+        - option "Русский"
+        - option "粵語"
+      - link "Play Topics referred to by the same term":
+        - /url: https://en.wikipedia.org/wiki/Play
+        - heading "Play" [level=3]:
+          - emphasis: Play
+        - paragraph: Topics referred to by the same term
+      - link "PlayStation 5 Home video game console by Sony":
+        - /url: https://en.wikipedia.org/wiki/PlayStation_5
+        - heading "PlayStation 5" [level=3]:
+          - emphasis: Play
+          - text: Station 5
+        - paragraph: Home video game console by Sony
+      - link "PlayStation 2 Sixth generation video game console first manufactured by Sony in 2000":
+        - /url: https://en.wikipedia.org/wiki/PlayStation_2
+        - heading "PlayStation 2" [level=3]:
+          - emphasis: Play
+          - text: Station 2
+        - paragraph: Sixth generation video game console first manufactured by Sony in 2000
+      - link "PlayStation 3 Sony's third home video game console, part of the seventh generation":
+        - /url: https://en.wikipedia.org/wiki/PlayStation_3
+        - heading "PlayStation 3" [level=3]:
+          - emphasis: Play
+          - text: Station 3
+        - paragraph: Sony's third home video game console, part of the seventh generation
+      - link "PlayStation Portable Handheld game console by Sony":
+        - /url: https://en.wikipedia.org/wiki/PlayStation_Portable
+        - heading "PlayStation Portable" [level=3]:
+          - emphasis: Play
+          - text: Station Portable
+        - paragraph: Handheld game console by Sony
+      - link "PlayStation 4 Sony's fourth home video game console":
+        - /url: https://en.wikipedia.org/wiki/PlayStation_4
+        - heading "PlayStation 4" [level=3]:
+          - emphasis: Play
+          - text: Station 4
+        - paragraph: Sony's fourth home video game console
+      - button "Search"
+  - navigation "All languages":
+    - button "Read Wikipedia in your language"
+  - separator
+- contentinfo:
+  - text: Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.
+  - link "You can support our work with a donation.":
+    - /url: https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter
+  - strong:
+    - link "Download Wikipedia for Android or iOS":
+      - /url: https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications
+  - paragraph: Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.
+  - list:
+    - listitem:
+      - link "Google Play Store":
+        - /url: https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dportal%26utm_medium%3Dbutton%26anid%3Dadmob
+    - listitem:
+      - link "Apple App Store":
+        - /url: https://itunes.apple.com/app/apple-store/id324715238?pt=208305&ct=portal&mt=8
+  - navigation "Other projects":
+    - link "Commons Free media collection":
+      - /url: //commons.wikimedia.org/
+    - link "Wikivoyage Free travel guide":
+      - /url: //www.wikivoyage.org/
+    - link "Wiktionary Free dictionary":
+      - /url: //www.wiktionary.org/
+    - link "Wikibooks Free textbooks":
+      - /url: //www.wikibooks.org/
+    - link "Wikinews Free news source":
+      - /url: //www.wikinews.org/
+    - link "Wikidata Free knowledge base":
+      - /url: //www.wikidata.org/
+    - link "Wikiversity Free learning resources":
+      - /url: //www.wikiversity.org/
+    - link "Wikiquote Free quote compendium":
+      - /url: //www.wikiquote.org/
+    - link "MediaWiki Free & open wiki software":
+      - /url: //www.mediawiki.org/
+    - link "Wikisource Free content library":
+      - /url: //www.wikisource.org/
+    - link "Wikispecies Free species directory":
+      - /url: //species.wikimedia.org/
+    - link "Wikifunctions Free function library":
+      - /url: //www.wikifunctions.org/
+    - link "Meta-Wiki Community coordination & documentation":
+      - /url: //meta.wikimedia.org/
+  - separator
+  - paragraph:
+    - text: This page is available under the
+    - link "Creative Commons Attribution-ShareAlike License":
+      - /url: https://creativecommons.org/licenses/by-sa/4.0/
+    - text: •
+    - link "Terms of Use":
+      - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    - text: •
+    - link "Privacy Policy":
+      - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+```
