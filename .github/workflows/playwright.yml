@@ -25,8 +25,8 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run Playwright Login Tests Only
-        run: npx playwright test src/tests/loginTest.spec.ts --reporter=html
+      - name: Run Playwright Tests
+        run: npx playwright test --reporter=html
 
       - name: Upload HTML Report
         if: always()
