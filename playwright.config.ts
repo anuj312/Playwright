@@ -7,7 +7,7 @@ export default defineConfig({
       name: 'chrome',
       use: {
         channel: 'chrome',      // Use installed Google Chrome
-        headless: true,         // Use headless in CI
+        headless: false,         // Use headless in CI
         screenshot: 'only-on-failure',
         video: 'retain-on-failure',
       },
